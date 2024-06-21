@@ -1,0 +1,29 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# astro
+.astro/
+
+# debug
+**/*.log
+
+# deliverable
+build/
+dist/
+out/
+
+# dependency
+node_modules/
+
+# env file
+.env*
+!.env.example
+
+# misc
+.DS_Store
+*.pem
+
+# testing
+coverage/
+
+# typescript
+*.tsbuildinfo

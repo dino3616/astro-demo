@@ -1,0 +1,40 @@
+{
+  "name": "astro-demo",
+  "version": "0.1.0",
+  "repository": "https://github.com/dino3616/astro-demo.git",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "dev": "bunx --bun astro dev",
+    "build": "bunx --bun astro check && bunx --bun astro build",
+    "preview": "bunx --bun astro preview",
+    "check:js": "bun biome check ./**/*.{*js*,*ts*}",
+    "check:js:fix": "bun biome check --apply",
+    "check:astro": "bun astro check",
+    "test": "bun test"
+  },
+  "dependencies": {
+    "@formkit/tempo": "0.1.1",
+    "astro": "4.7.1",
+    "framer-motion": "11.1.8",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "schema-dts": "1.1.2"
+  },
+  "devDependencies": {
+    "@astrojs/check": "0.5.10",
+    "@astrojs/react": "3.3.4",
+    "@astrojs/sitemap": "3.1.4",
+    "@astrojs/tailwind": "5.1.0",
+    "@biomejs/biome": "1.7.3",
+    "@sentry/astro": "7.113.0",
+    "@spotlightjs/astro": "1.0.20",
+    "@types/bun": "1.1.1",
+    "@types/react": "18.3.1",
+    "@types/react-dom": "18.3.0",
+    "lefthook": "1.6.10",
+    "tailwindcss": "3.4.3",
+    "tailwindcss-animate": "1.0.7",
+    "typescript": "5.4.5"
+  }
+}

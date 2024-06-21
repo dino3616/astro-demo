@@ -1,0 +1,20 @@
+{
+  "name": "astro-demo",
+  "workspaceFolder": "/workspaces/astro-demo/",
+  "dockerComposeFile": ["../docker/docker-compose.development.yaml"],
+  "service": "app",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "adam-bender.commit-message-editor",
+        "astro-build.astro-vscode",
+        "biomejs.biome",
+        "bradlc.vscode-tailwindcss",
+        "editorconfig.editorconfig",
+        "heybourn.headwind",
+        "oven.bun-vscode",
+        "sbenp.prettier-vscode"
+      ]
+    }
+  }
+}

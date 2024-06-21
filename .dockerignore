@@ -1,0 +1,27 @@
+# astro
+.astro/
+
+# debug
+**/*.log
+
+# deliverable
+**/build/
+**/dist/
+**/out/
+
+# dependency
+**/node_modules/
+
+# misc
+.DS_Store
+*.pem
+
+# env file
+**/.env*
+!**/.env.example
+
+# testing
+**/coverage
+
+# typescript
+**/*.tsbuildinfo
