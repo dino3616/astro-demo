@@ -1,4 +1,4 @@
-FROM oven/bun:1.1.23
+FROM oven/bun:1.1.24
 
 # hadolint ignore=DL3008
 RUN apt-get update \
