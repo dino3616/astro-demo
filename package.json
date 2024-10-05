@@ -28,7 +28,7 @@
     "@astrojs/tailwind": "5.1.0",
     "@biomejs/biome": "1.8.3",
     "@sentry/astro": "7.119.0",
-    "@spotlightjs/astro": "1.0.20",
+    "@spotlightjs/astro": "2.1.11",
     "@types/bun": "1.1.9",
     "@types/react": "18.3.5",
     "@types/react-dom": "18.3.0",
